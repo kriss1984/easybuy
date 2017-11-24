@@ -11,7 +11,6 @@ public interface EasyBuyFindAllDao<T> {
     T findById(Integer id);
     List<T> findByUserId(Integer id);
     Integer add(T t);
-
     T findByNameAndPwd(String name,String pwd);
     public List<EasyBuyProduct> findOne(Integer id);
 }
